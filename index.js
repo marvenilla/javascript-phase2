@@ -1,0 +1,1 @@
+const UploadContentModule = require('./UploadContentModule');
