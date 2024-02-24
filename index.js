@@ -1,4 +1,5 @@
 const UploadContentModule = require('./UploadContentModule');
+const ContentDisplayModule = require('./ContentDisplayModule');
 
 UploadContentModule.uploadContent(
     'Review: Winter is Coming',
@@ -8,3 +9,10 @@ UploadContentModule.uploadContent(
 );
 
 console.log(UploadContentModule.contentList);
+
+
+// Display all content
+ContentDisplayModule.displayAll();
+
+// Display content by a specific type
+ContentDisplayModule.displayByType('review');
