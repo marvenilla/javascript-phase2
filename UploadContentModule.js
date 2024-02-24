@@ -15,4 +15,4 @@ const UploadContentModule = {
     }
 };
 
-module.exports = { contentList: UploadContentModule.contentList };
+module.exports = UploadContentModule;
